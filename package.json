@@ -1,0 +1,14 @@
+{
+  "name": "unwatch-github-org",
+  "version": "0.0.1",
+  "description": "A Script To Unwatch All Repositories From A Github Organization.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raxit Majithiya",
+  "license": "WTFPL",
+  "dependencies": {
+    "@octokit/rest": "^16.27.3"
+  }
+}
