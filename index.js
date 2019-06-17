@@ -10,7 +10,7 @@ const rl = readline.createInterface({
 })
 
 const getRepositories = function(org, page) {
-    return octokit.repos.listForOrg({ org })
+    return octokit.repos.listForOrg({ org, per_page: 100, page })
 }
 
 const unwatch = function(owner, repo) {
